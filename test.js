@@ -10,7 +10,8 @@ console.log(var1.substring(2,3),var1.substring(3,2),var1.substring(0,1),var1.sub
 //№2
 let var2 = 'Я изучаю JavaScipt';
 
-var2 = var2.slice(0,7) + var2[var2.indexOf('ю')].toUpperCase() + var2.substring(8);
+let newVal = ' Frontend';
 
+var2 = var2.slice(0,7) + var2[var2.indexOf('ю')].toUpperCase() + newVal;
 
 console.log(var2);
