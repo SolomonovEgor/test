@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+<!-- To Do App -->
+
+<section>
+    <div id="wrapToDo">
+        <div id="name">
+            <h1>To Do List</h1>
+        </div>
+    <div id="toDo">
+        
+        <div id="todo">
+            <input id="taskText" type="text">
+            <button class="addTask">+</button>
+        </div>
+        <div id="taskSort">
+            <select class="select">
+                <option value="All">All</option>
+                <option value="In process">In process</option>
+                <option value="Done">Done</option>
+            </select>
+        </div>
+    </div>
+    <div id="tasks">
+        <ul></ul>
+        <div class="closeAll">
+            <button class="closeAllBut">Close all</button>
+        </div>
+    </div>
+</div>
+</section>
+
+    <!-- Scripts -->
+
+     <script src="ToDoList.js"></script>
+</body>
+</html>
