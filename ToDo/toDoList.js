@@ -58,12 +58,4 @@ selectList.addEventListener("change", function () {
       li.style.display = "block";
     }
   }
-  /* let arr = Array.from(tasksList.children);
-
-  let res = arr.forEach((item) => {
-    if (item.style === "block") return "block";
-  });
-  console.log(res);
-
-  console.log(arr); */
 });
